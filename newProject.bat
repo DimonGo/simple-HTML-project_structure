@@ -29,8 +29,12 @@ echo ^<meta name="DC.title" content="This is the text you'll see at the top of y
 echo ^<!--SEO SECTION END--^>>>index.html
 echo.>>index.html
 echo ^<!--START OF Styles--^>>>index.html
-echo ^<link rel="stylesheet" href="assets\styles\main.css"^>>>index.html
+echo ^<link rel="stylesheet" href="assets/styles/main.css"^>>>index.html
 echo ^<!--END OF Styles--^>>>index.html
+echo.>>index.html
+echo ^<!--Icon--^>>>index.html
+echo ^<link rel="shortcut icon" type="image/png" href="/favicon.png"/^>>>index.html
+echo ^<!--Icon--^>>>index.html
 echo.>>index.html
 echo ^<!--START OF JavaScript--^>>>index.html
 echo ^<script src="js/main.js"^>^</script^>>>index.html
