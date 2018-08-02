@@ -3,6 +3,10 @@
 ::Creating dirs:
 md assets\styles assets\img assets\fonts js 
 
+::To avoid destroying of your project, here is check statement if folders and files are exist
+if exist assets\styles\main.css echo Now Exiting && Exit
+if exist js\main.js echo Now Exiting && Exit
+
 ::Creating files:
 echo.>assets\styles\main.css
 echo.>js\main.js
